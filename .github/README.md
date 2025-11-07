@@ -11,6 +11,9 @@ Includes an API, and a simple front-end for live classification of any user's tw
 
 The jupyter notebook `Project_G7_T12.ipynb` contains the relevant code snippets, and EDA used while developing the model.
 
+If you wish to run the inference yourself, copy the folders in the `datasets` folder onto your notebook's runtime. All cells will execute succesfully in an estimated time of 45 minutes.
+
+
 # API Usage instructions
 
 First clone the repository:
