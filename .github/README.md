@@ -3,7 +3,7 @@
 
 Complete source code for the Twitter Sentiment Analysis course project (Group 7, Topic 12) for the course CS F320.
 
-Includes an API (and simple front-end) for live classification of any user's tweets using our most performant model.
+Includes an API, and a simple front-end for live classification of any user's tweets using our most performant model.
 
 </div>
 
@@ -51,7 +51,9 @@ For example, with the third method of directly exporting the key, you'd run:
 X_BEARER_TOKEN=YOUR_BEARER_TOKEN_HERE fastapi dev
 ```
 
-This exposes the API on [`localhost:8000`](http://localhost:8000/). You may test the API manually using `cURL`; the only exposed endpoints are `GET /api/tweets/{username}` and `POST /classification`.
+on a POSIX compliant shell like `bash` or `zsh`
+
+This exposes the API on [`localhost:8000`](http://localhost:8000/). You may test the API manually using `cURL`; the only exposed endpoints are `GET` `/api/tweets/{username}` and `POST` `/classification`.
 
 Alternatively you may use the simple front-end included in this repository for a more interactive UI.
 
@@ -61,18 +63,19 @@ Change the directory to `front`
 cd front
 ```
 
-and launch a simple HTTP server to host the HTML file:
+and launch a simple HTTP server to host the HTML file (cf.eg:)
 
 ```bash
 python -m http.server 8080
 ```
 
-The web-service is accessible on [`localhost:8080`](http://localhost:8080/). A screenshot is attached below:
+The web-service would be accessible on [`localhost:8080`](http://localhost:8080/). The web-service looks like this
 
 ![Web service](./img/webservice.jpeg)
 
-Pay attention to any rate limiting from X server's side ; this cannot be resolved from either the API or the front end
+Pay attention to any rate limiting from X server's side ; this cannot be resolved from either the API or the front end.
 
 ---
 
 Project started on: 01/09/2025
+Project completed on: 07/11/2025
