@@ -78,4 +78,6 @@ Pay attention to any rate limiting from X server's side ; this cannot be resolve
 ---
 
 Project started on: 01/09/2025
+
+
 Project completed on: 07/11/2025
