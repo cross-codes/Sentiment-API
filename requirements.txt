@@ -7,3 +7,4 @@ fastapi[standard]
 scikit-learn
 nltk
 httpx
+emoji
