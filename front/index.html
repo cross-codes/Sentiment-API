@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet Sentiment Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tweet Sentiment Analyzer</h1>
+            <p>Enter an X (Twitter) username to retrieve their latest tweets and analyze their sentiment.</p>
+        </header>
+        <form id="search-form">
+            <input type="text" id="username-input" placeholder="Enter X Username (e.g., SpaceX)" required>
+            <button type="submit">Get Tweets</button>
+        </form>
+
+        <div id="results-container">
+            <div id="loader" class="hidden"></div>
+            <p id="message-area"></p>
+            <ul id="tweets-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
